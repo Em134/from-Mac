@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="很遗憾，您可能患有："
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="急性上颌窦炎"
+        android:textSize="35dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:text="病情简介"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="个或多个鼻窦发生炎症称为鼻窦炎，累及的鼻窦包括：上颌窦、筛窦、额窦和蝶窦，这是一种在人群中发病率较高的疾病，影响患者生活质量。鼻窦炎可分为急性、慢性鼻窦炎2种。急性鼻窦炎多由上呼吸道感染引起，细菌与病毒感染可同时并发。慢性鼻窦炎较急性者多见，常为多个鼻窦同时受累。"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:text="推荐用药"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="治疗采用足量抗生素控制感染，因多为球菌感染，以青霉素类、头孢菌素类为首选药物，药物治疗强调选择敏感抗生素，足量、足疗程使用。若头痛或局部疼痛剧烈，可适当用镇静剂或镇痛剂。一般疗法与急性鼻炎相同。中医中药治疗以散风清热、芳香通窍为主，以解毒去瘀为辅。"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/coldback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:text="上传记录并返回"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

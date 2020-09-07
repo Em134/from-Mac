@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您的主要症状是什么？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/notecold1"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="A  鼻涕在2-3天变稠，且呈现暗黄色"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/notecold2"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="B  有持续性咳嗽且头部偏后部长时间疼痛"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/notecold3"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="C 没有别的症状了"
+               android:textSize="20dp" />
+
+       </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您的主要症状是什么？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/mouthpain19"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="A  长期反复逐渐加重的咳嗽，痰色黄稠而难排出，甚至痰中带血，口干咽疼"
+               android:textSize="20dp" />
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/mouthpain20"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="B  恶心呕吐，胆郁痰扰，惊悸不定，胸闷肋胀，耳鸣头晕"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/mouthpain21"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="C 心烦易怒，舌质绛红，或头疼，面红，口苦大便干结，手热"
+               android:textSize="20dp" />
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/mouthpain22"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="D 排便费力，排便不尽感，排便费时，食欲减退，排气多或头晕头疼"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

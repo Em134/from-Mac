@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="很遗憾，您可能患有："
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="耵聍栓塞"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:text="病情简介"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=" 耵聍，为外耳道软骨部皮肤的耵聍腺所分泌的淡黄色黏稠液体，耵聍腺是一种特殊的汗腺，位于长有耳毛的外耳道皮肤处。耵聍在空气中干燥后成薄片状，但有的耵聍状如黏稠的油脂，俗称“油耳”。耵聍具有保护外耳道皮肤和黏附外物（如尘埃、小虫子等）的作用。平时借咀嚼、张口等运动，耵聍可自行脱落排出。耵聍栓塞是指外耳道内耵聍分泌过多或排出受阻，使耵聍在外耳道内聚集成团，阻塞外耳道。耵聍栓塞形成后，可影响听力或诱发炎症，是耳鼻喉科常见病之一。耵聍栓塞因程度及部位的不同而症状有异。外耳道未完全阻塞者，多无症状；患者有临床表现前来就诊时，往往可见到耵聍完全阻塞外耳道。"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:text="推荐用药"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="如较少可自行清理，若是难以自行解决，需要到医院进行治疗，外耳道吸引法，外耳道冲洗法等（冲洗前需将耵聍软化，用5%～10%的碳酸氢钠溶液滴耳，每天4～5次，每次滴药后患耳向上静置5～10分钟，3～4日后待其全部或部分膨化，再冲洗）"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/coldback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:text="上传记录并返回"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

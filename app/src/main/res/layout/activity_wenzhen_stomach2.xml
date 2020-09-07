@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您是否有以下症状？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/stomachpain7"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="A  粪量多，恶食酸物，肠胃功能不适，小指半月甲呈粉红色，伴有失眠焦虑，注意力涣散，健忘"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stomachpain8"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="B  闭经呕吐，忧郁"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_height="wrap_content">
+
+             <Button
+                 android:layout_width="match_parent"
+                 android:id="@+id/stomachpain9"
+                 android:layout_height="wrap_content"
+                 android:background="@color/buttonBackground"
+                 android:text="C 产后极度虚弱，阴毛脱落，怕冷，性欲减退，阴道干燥"
+                 android:textSize="20dp" />
+
+         </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

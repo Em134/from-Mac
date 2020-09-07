@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您是否有以下症状？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stomachpain10"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="A  有精神刺激史，仅有月经稀发与闭经，不孕及体重减轻"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stomachpain11"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="B  渴望生育而出现抑郁，乳汁分泌，恶心呕吐，食欲不振等早孕症状"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/stomachpain12"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="C 迷恋形体消瘦，过分限制饮食，诱发呕吐，几乎不进食"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stomachpain13"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="D 女运动员，长时间训练或者比赛"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

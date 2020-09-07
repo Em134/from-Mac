@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您的主要症状是什么？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/mouthpain23"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="A  有小球状突起于牙龈表面，严重时会影响口唇闭合致口呼吸"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/mouthpain24"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="B  局部先感病原牙痛，延及邻牙，面部相应部位肿胀，多个牙齿松动，有脓液从牙周溢出，有不同程度的张限制"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_marginTop="10dp"
+          android:layout_height="wrap_content">
+
+          <Button
+              android:layout_width="match_parent"
+              android:id="@+id/mouthpain25"
+              android:layout_height="wrap_content"
+              android:background="@color/buttonBackground"
+              android:text="C 牙龈变圆纯，光亮，物理刺激牙龈易出血，牙龈充血水肿，牙齿有不同程度的松动"
+              android:textSize="20dp" />
+      </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

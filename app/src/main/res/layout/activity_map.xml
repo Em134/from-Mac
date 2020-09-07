@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="30dp"
+        android:text="地图界面"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="自动在地图上显示附近的医院以及诊所"
+            android:textSize="15dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+   <com.baidu.mapapi.map.MapView
+       android:id="@+id/bmapview"
+       android:layout_width="match_parent"
+       android:layout_height="500dp"
+       android:clickable="true"
+       />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/map_go"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="导航至目的地"
+            android:background="@color/buttonBackground"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

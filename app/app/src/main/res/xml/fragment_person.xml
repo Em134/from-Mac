@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <Preference
+        android:title="当前账号"
+
+        android:key="account"
+        android:icon="@drawable/account"
+        />
+    <Preference
+        android:title="所绑手机"
+
+        android:key="phone"
+        android:icon="@drawable/phone"
+        />
+    <Preference
+        android:title="注销"
+        android:key="cancel"
+        android:icon="@drawable/cancel"
+
+        />
+    <Preference
+        android:title="紧急求助"
+        android:key="help"
+        android:icon="@drawable/help"
+        />
+    <Preference
+        android:title="更新"
+        android:key="update"
+        android:icon="@drawable/update"
+        />
+    <Preference
+        android:title="问题和建议"
+        android:key="advise"
+        android:icon="@drawable/advise"
+        />
+    <Preference
+        android:title="关于我们"
+        android:key="about_us"
+        android:icon="@drawable/about_us"
+        />
+</PreferenceScreen>

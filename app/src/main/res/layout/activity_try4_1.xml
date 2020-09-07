@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:src="@drawable/timg"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/carema1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/buttonBackground"
+            android:text="拍照"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/pic1"
+            android:layout_marginLeft="35dp"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/buttonBackground"
+            android:layout_height="wrap_content"
+            android:text="选取相册" />
+
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_marginTop="20dp"
+     android:orientation="vertical"
+     android:layout_height="wrap_content">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_marginLeft="15dp"
+         android:text="功能简介"
+         android:textSize="25dp"
+         android:layout_height="wrap_content" />
+ </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:text="用户可以点击“拍照”按键进入相机对舌苔图像进行采集，或者点击“从相册选取”按键选取相册中已经保存的舌苔图像"
+            android:textSize="15dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/up_image"
+            android:text="上传舌苔图片诊断"
+            android:background="@color/buttonBackground"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

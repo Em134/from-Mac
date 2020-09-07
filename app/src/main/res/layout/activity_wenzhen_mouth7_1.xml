@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您的主要症状是什么？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/mouthpain32"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="A  面赤身热，口渴饮冷，或口舌生疮，牙龈肿痛，流脓出血"
+               android:textSize="20dp" />
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/mouthpain33"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="B  出口酸腐臭味，腹胀腹痛，不思饮食，暖气口臭"
+               android:textSize="20dp" />
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/mouthpain34"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="C 咳痰浑浊或脓血，胸闷气短"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/mouthpain35"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="D 鼻干，干咳，大便干结，失眠多梦，腰膝酸软"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

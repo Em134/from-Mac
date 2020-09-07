@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">GraduationProject</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="evaluate">评估</string>
+    <string name="health">健康</string>
+
+    <string name="me">个人</string>
+    <string name="voice">语音</string>
+    <string name="photo">照片</string>
+    <string name="vedio">视频</string>
+    <string name="face">表情</string>
+
+    <!-- 眼科 -->
+    <!-- 辩色力 -->
+    <string-array name="entries_color">
+        <item>正常</item>
+        <item>色弱</item>
+        <item>色盲</item>
+    </string-array>
+
+    <!-- 结膜 -->
+    <string-array name="entries_conjunctiva">
+        <item>正常</item>
+        <item>炎症</item>
+        <item>出血</item>
+        <item>丘疹</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 角膜 -->
+    <string-array name="entries_Corneal">
+        <item>正常</item>
+        <item>白斑</item>
+        <item>溃疡</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 巩膜 -->
+    <string-array name="entries_Sclera">
+        <item>正常</item>
+        <item>黄疸</item>
+        <item>脂肪沉着</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 视网膜 -->
+    <string-array name="entries_retina">
+        <item>正常</item>
+        <item>变性</item>
+        <item>出血</item>
+        <item>萎缩</item>
+        <item>脱落</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 耳科 -->
+    <!--听力损失程度-->
+    <string-array name="entries_hearing">
+        <item>正常</item>
+        <item>轻度</item>
+        <item>中度</item>
+        <item>重度</item>
+        <item>极重度</item>
+    </string-array>
+    <!--耳廓-->
+    <string-array name="entries_auricle">
+        <item>正常</item>
+        <item>畸形</item>
+        <item>红肿</item>
+        <item>损伤</item>
+        <item>其他</item>
+    </string-array>
+    <!--外耳道-->
+    <string-array name="entries_external_auditory_canal">
+        <item>正常</item>
+        <item>畸形</item>
+        <item>炎症</item>
+        <item>肿物</item>
+        <item>分泌物</item>
+        <item>其他</item>
+    </string-array>
+    <!--鼓膜-->
+    <string-array name="entries_drumhead">
+        <item>正常</item>
+        <item>白色斑块</item>
+        <item>其他</item>
+    </string-array>
+    <!---鼻中隔-->
+    <string-array name="entries_nasal_septum">
+        <item>正常</item>
+        <item>畸形</item>
+        <item>弯曲</item>
+        <item>其他</item>
+    </string-array>
+    <!---鼻道-->
+    <string-array name="entries_nasal_passage">
+        <item>正常</item>
+        <item>畸形</item>
+        <item>炎症</item>
+        <item>肿物</item>
+        <item>分泌物</item>
+        <item>其他</item>
+    </string-array>
+    <!---鼻甲-->
+    <string-array name="entries_turbinate">
+        <item>正常</item>
+        <item>肿物</item>
+        <item>畸形</item>
+        <item>其他</item>
+    </string-array>
+    <!---副鼻窦-->
+    <string-array name="entries_paranasal_sinuses">
+        <item>正常</item>
+        <item>炎症</item>
+        <item>分泌物</item>
+        <item>压痛</item>
+        <item>其他</item>
+    </string-array>
+    <!---口腔科-->
+    <!---嘴唇-->
+    <string-array name="entries_lip">
+        <item>正常</item>
+        <item>过白</item>
+        <item>过红</item>
+        <item>发黄</item>
+        <item>嘴唇干裂</item>
+        <item>嘴角破裂</item>
+        <item>其他</item>
+    </string-array>
+    <!---牙齿-->
+    <string-array name="entries_teeth">
+        <item>正常</item>
+        <item>牙齿发黑</item>
+        <item>蛀牙</item>
+        <item>龋齿</item>
+        <item>牙龈红肿、出血</item>
+        <item>其他</item>
+    </string-array>
+    <!---舌质-->
+    <string-array name="entries_tongue_texture">
+        <item>正常</item>
+        <item>淡白舌</item>
+        <item>红绛舌</item>
+        <item>青紫舌</item>
+    </string-array>
+    <!---舌苔-->
+    <string-array name="entries_tongue_coating">
+        <item>正常</item>
+        <item>白苔</item>
+        <item>黄苔</item>
+        <item>灰苔</item>
+        <item>黑苔</item>
+    </string-array>
+    <!---口腔黏膜-->
+    <string-array name="entries_oral_mucosa">
+        <item>正常</item>
+        <item>发炎</item>
+        <item>出血</item>
+        <item>溃疡</item>
+        <item>白斑</item>
+    </string-array>
+    <!---咽喉科-->
+    <!---扁桃体-->
+    <string-array name="entries_throat">
+        <item>正常</item>
+        <item>充血</item>
+        <item>肿大</item>
+        <item>溃疡</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daily">日报</string>
+</resources>

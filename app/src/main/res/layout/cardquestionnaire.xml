@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="问卷评估"
+        android:textColor="#858585"
+        android:textSize="20dp"
+        android:layout_marginLeft="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="可以选择体质或者心理评估"
+        android:textColor="#bbb8b8"
+        android:textSize="14dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonbody"
+            android:layout_width="269dp"
+            android:layout_height="95dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_navigation"
+            android:drawableRight="@drawable/ic_run"
+            android:onClick="oneOnClick"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="体质评估"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonfeel"
+            android:layout_width="269dp"
+            android:layout_height="95dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:background="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@drawable/ic_photo"
+            android:drawableRight="@drawable/ic_run"
+            android:onClick="oneOnClick"
+            android:text="心理评估"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

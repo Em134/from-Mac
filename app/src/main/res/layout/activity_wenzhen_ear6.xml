@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您主要的症状是？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/earpain23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="A  耳廓红肿热痛，体温升高，肿胀呈淡黄色"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_marginTop="15dp"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:id="@+id/earpain24"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/buttonBackground"
+             android:text="B  耳后沟红肿压痛，耳廓耸向前方，压外耳道后方麦三角区剧痛"
+             android:textSize="20dp" />
+
+
+     </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_marginTop="15dp"
+          android:layout_height="wrap_content">
+
+
+          <Button
+              android:id="@+id/earpain25"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/buttonBackground"
+              android:text="C 轻度耳痛，咀嚼时加重并伴有耳鸣和听力下降，可流出分泌物"
+              android:textSize="20dp" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

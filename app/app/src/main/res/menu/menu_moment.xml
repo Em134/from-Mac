@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/photo"
+        android:icon="@drawable/ic_photo"
+        android:title="@string/photo" />
+    <item
+        android:id="@+id/voice"
+        android:icon="@drawable/ic_voice"
+        android:title="@string/voice" />
+    <item
+        android:id="@+id/vedio"
+        android:icon="@drawable/ic_video"
+        android:title="@string/vedio"
+        />
+    <item
+        android:title="" />
+    <item
+        android:id="@+id/face"
+        android:icon="@drawable/ic_face"
+        android:title="@string/face" />
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您是否有以下症状？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stomachpain3"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="A  恶心呕吐，呕吐物是未消化食物，吐后舒服，出现腹胀，为水样便和稀便，便血，常有发热头疼，全身不适"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stomachpain4"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="B  腹部不适，排气不畅，胃部隐疼，腹胀"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="match_parent"
+               android:id="@+id/stomachpain5"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="C 在进食半小时到一小时或就寝时出现轻微灼烧样或强烈灼痛，部位多为胸骨后，剑突下，或双季肋骨，可向上反射到背部两肩胛骨"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stomachpain6"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="D 腹部绞痛，恶心呕吐，口唇水肿，过敏性鼻炎，昏阕，低血压"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

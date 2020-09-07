@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/i_health"
+        android:checked="true"
+        android:icon="@drawable/ic_health"
+        android:title="@string/health" />
+    <item
+        android:id="@+id/i_daily"
+        android:icon="@drawable/ic_daily"
+        android:title="@string/daily" />
+
+    <!--must set the item title to empty-->
+    <item
+        android:id="@+id/i_empty"
+        android:title="" />
+
+    <item
+        android:id="@+id/i_evaluate"
+        android:icon="@drawable/ic_evaluate"
+        android:title="@string/evaluate" />
+    <item
+        android:id="@+id/i_person"
+        android:icon="@drawable/ic_me"
+        android:title="@string/me" />
+
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="21dp"
+        android:text="您主要的症状是？"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/eyepain26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="A  在工作距离阅读看不清小字，看远处清楚，有眼酸眼肿，眼干涩等眼睛不适症状"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:id="@+id/eyepain27"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/buttonBackground"
+               android:text="B  自觉异物感，干涩感，痒，刺痛以及视觉疲劳"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/eyepain28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonBackground"
+                android:text="C 持续性瘙痒，在白天经过如灰尘，亮光，风，擦揉等刺激后，晚间症状加剧"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:layout_height="wrap_content">
+
+
+             <Button
+                 android:id="@+id/eyepain29"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/buttonBackground"
+                 android:text="D 眼睑红肿，眼痒，眼焦灼感，流泪或者溢泪，晨起分泌物多而难睁眼"
+                 android:textSize="20dp" />
+         </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

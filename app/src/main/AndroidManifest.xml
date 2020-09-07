@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a.androidui">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <application
+        android:name=".DemoApplication"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+
+        android:icon="@drawable/gun"
+
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:icon">
+        tools:ignore="ExtraText">
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+
+        </service>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FruitActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".CallPhoneActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".HistoryActivityRead"
+            android:exported="true" />
+
+        <activity
+            android:name=".ActivityTakePhoto"
+            android:exported="true" />
+
+        <activity
+            android:name=".BaiduMap"
+            android:exported="true" />
+
+        <activity
+            android:name=".BaiduMap2"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerMenu"
+            android:exported="true" />
+        <activity
+            android:name=".DemoApplication"
+            android:exported="true" /> <!-- <activity android:name=".MessageActivity"> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".ActivityTry2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityWebView_forRead"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityTry3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMap"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityWebView1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityFucking"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityWebView2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityWebView3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityWebView4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHappy"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityDoctorOnline"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHelpJoker"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Login_try"
+            android:exported="true" />
+        <activity
+            android:name=".Sign_try"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySign"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityTry4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityTry5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote8"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote9"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote10"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote11"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNote12"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye3_1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye3_2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye5_1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye5_2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye5_3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEye7_1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar2_1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEar6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouth7_1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult8"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult9"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult10"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult11"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult12"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult13"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult14"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult15"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult16"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult17"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult18"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult19"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult20"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult21"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityMouthResult22"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult8"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult9"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult10"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult11"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult12"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult13"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult14"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult15"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult16"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEarResult17"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult8"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult9"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult9_0"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult10"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult11"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult12"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult13"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult14"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult15"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult16"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult17"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult18"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult19"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult20"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult21"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult22"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeResult23"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult8"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult9"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult10"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult11"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult12"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult13"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult14"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult15"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult16"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult17"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult18"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult19"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult20"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResult21"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomach"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomach1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomach2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomach3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult4"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult6"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult7"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult8"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult9"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityStomachResult10"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHeart"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHeart1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHeartResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHeartResult2"
+            android:exported="true" />
+
+        <activity
+            android:name=".ActivityResultBlack"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResultErro"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResultRed"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResultWhite"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityResultYellow"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHeartResult3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityHeartResult4"
+            android:exported="true" />
+        <activity
+            android:name=".ChatBot"
+            android:exported="true" />
+        <!--        ljy加的-->
+        <activity
+            android:name=".AVIActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ActivityWebView_forsee"
+            android:exported="true" />
+        <activity
+            android:name=".Activitybody"
+            android:exported="true" />
+        <activity
+            android:name=".Activityfeel"
+            android:exported="true" />
+        <activity
+            android:name=".QuestionnaireActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityWebView5"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityWebView6"
+            android:exported="true" />
+        \\wct改过
+        <activity
+            android:name=".ActivitySprainresult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySprain1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySprainresult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityJiuhu"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityFirstaid"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySiriasis"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySiriasisResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySiriasisResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityProstrationResult"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeinjure"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeinjureResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEyeinjureResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySuan"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySuanResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySuanResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitySuanResult3"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityJianResult"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEmpyrosis"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEmpyrosisResult1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityEmpyrosisResult2"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityElectric"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityCpr"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="KDGrM0rFBFMEpCY2CKXWPLHF2BxBcAHW" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.a.androidui.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        
+    </application>
+
+</manifest>
